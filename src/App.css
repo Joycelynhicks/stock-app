@@ -21,3 +21,10 @@
   list-style-type: none;
   font-size: 40px;
 }
+
+.List {
+  display: flex;
+  justify-content: end;
+ 
+}
+

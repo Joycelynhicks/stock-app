@@ -9,6 +9,12 @@ function App() {
           <li className="Nav">
             Stock Trader
           </li>
+          <li className='List'>
+            Welcome, User
+          </li>
+          <li className='List'>
+            Logout
+          </li>
         </ul>
       </nav>
       <header className="App-header">
