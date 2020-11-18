@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-          <li>
+          <li className="Nav">
             Stock Trader
           </li>
         </ul>
