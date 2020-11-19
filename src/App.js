@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar } from 'react-bootstrap';
+import { Navbar,Nav } from 'react-bootstrap';
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
           <Navbar.Text>
             Signed in as: <a href="#login">Mark Otto</a>
           </Navbar.Text>
-          <Navbar.Text>
-          <a href="#logout">Logout</a>
-          </Navbar.Text>
+          <Nav.Link href="#logout">Logout</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
       <header className="App-header">
