@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navmain from './Components/Navmain'; 
 import Grid from './Components/Grid';
+import Counter from './Components/Counter';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      
       <Navmain/>
       <Grid/>
+      <Counter/>
     </div>
   );
 }
